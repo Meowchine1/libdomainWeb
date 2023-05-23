@@ -75,7 +75,21 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 183px;
-  left: 1200px;
+  left: 1500px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.progect{
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 183px;
+  left: 1100px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;

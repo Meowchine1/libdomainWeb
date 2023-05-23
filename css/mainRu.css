@@ -5,17 +5,19 @@ body {
   font-size: 14px;
 }
 .v119_116 {
-  width: 100%;
-  height: 2560px;
   background: url("../images/background.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: 100%;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
+  width: 100%;
+  height: 2560px;
+  padding-right: 0;
+  padding-left: 0;
+   
+   
 }
 .v1_6 {
   width: 130px;
@@ -46,8 +48,8 @@ body {
   width: 189px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 144px;
-  left: 118px;
+  top: 185px;
+  left: 140px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;
@@ -62,8 +64,21 @@ body {
   width: 350px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 144px;
-  left: 1200px;
+  top: 185px;
+  left: 1580px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.progect{
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 185px;
+  left: 1080px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;
@@ -72,12 +87,13 @@ body {
 }
 
 
+
 .v104_17 {
   width: 350px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 144px;
-  left: 543px;
+  top: 185px;
+  left: 540px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;
@@ -140,8 +156,8 @@ body {
   width: 720px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 233px;
-  left: 483px;
+  top: 260px;
+  left: 600px;
   font-family: Montserrat;
   font-weight: SemiBold;
   font-size: 64px;
@@ -149,7 +165,7 @@ body {
   text-align: left;
 }
 .v1_10 {
-  width: 100%;
+  width: 75%;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 447px;
@@ -161,14 +177,17 @@ body {
   text-align: left;
 }
 .v116_109 {
+  
   width: 100%;
-  height: 340px;
+  height: 380px;
   background: rgba(85,80,80,1);
   opacity: 1;
   position: absolute;
   top: 2210px;
-  left: 8px;
   overflow: hidden;
+  padding-right: 0;
+  padding-left: 0;
+   
 }
 .v116_110 {
   width: 480px;
@@ -462,8 +481,8 @@ body {
   width: 95px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 46px;
-  left: 1212px;
+  top: 50px;
+  left: 1200px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
@@ -474,8 +493,8 @@ body {
   width: 63px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 46px;
-  left: 1147px;
+  top: 50px;
+  left: 1140px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;

@@ -126,13 +126,28 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 0px;
-  left: 1000px;
+  left: 1200px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;
   opacity: 1;
   text-align: left;
 }
+
+
+.progect{
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 800px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
 .v128_422 {
   width: 75%;
   color: rgba(0,0,0,1);
@@ -162,7 +177,7 @@ body {
   width: 189px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 2px;
+  top: 0px;
   left: 0px;
   font-family: Montserrat;
   font-weight: Regular;
@@ -178,7 +193,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 0px;
-  left: 438px;
+  left: 400px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;
@@ -199,8 +214,8 @@ body {
   width: 95px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 46px;
-  left: 1212px;
+  top: 50px;
+  left: 1200px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
@@ -211,8 +226,8 @@ body {
   width: 63px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 46px;
-  left: 1147px;
+  top: 50px;
+  left: 1140px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;

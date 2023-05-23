@@ -43,24 +43,14 @@ body {
   text-align: left;
 }
 .v128_363 {
-  width: 100%;
-  height: 37px;
-  background: url("../images/v128_363.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 153px;
-  left: 150px;
-  overflow: hidden;
+  
 }
 .v128_364 {
   width: 189px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 2px;
-  left: 0px;
+  top: 185px;
+  left: 140px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;
@@ -74,8 +64,8 @@ body {
   width: 350px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 0px;
-  left: 438px;
+  top: 185px;
+  left: 540px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;
@@ -87,14 +77,29 @@ body {
   width: 350px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 0px;
-  left: 700px;
+  top: 185px;
+  left: 1580px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 24px;
   opacity: 1;
   text-align: left;
 }
+
+
+.progect{
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 185px;
+  left: 1080px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
 .v128_367 {
   width: 296px;
   height: 30px;
@@ -151,8 +156,8 @@ body {
   width: 720px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 290px;
-  left: 504px;
+  top: 300px;
+  left: 600px;
   font-family: Montserrat;
   font-weight: SemiBold;
   font-size: 64px;
@@ -160,7 +165,7 @@ body {
   text-align: left;
 }
 .v128_372 {
-  width: 100%;
+  width: 75%;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 540px;
@@ -241,38 +246,40 @@ body {
   opacity: 1;
   text-align: left;
 }
+.container{
+ display:block; 
+}
+
 .v128_379 {
+  
   width: 295px;
   height: 89px;
-  background: url("../images/v128_379.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1031px;
-  left: 1315px;
+  top: 1012px;
+  left: 1600px;
   overflow: hidden;
 }
 .v128_380 {
   width: 108px;
   height: 57px;
+  left: 200px;
   background: url("../images/arrow.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 186px;
+ 
   overflow: hidden;
 }
 .v128_381 {
   width: 220px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 0px;
-  left: 0px;
   font-family: Montserrat;
   font-weight: Medium;
   font-size: 36px;
@@ -282,14 +289,13 @@ body {
 .v128_382 {
   width: 295px;
   height: 89px;
-  background: url("../images/v128_382.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1280px;
-  left: 1315px;
+  top: 1159px;
+  left: 1600px;
   overflow: hidden;
 }
 .v128_383 {
@@ -302,58 +308,30 @@ body {
   opacity: 1;
   position: absolute;
   top: 0px;
-  left: 186px;
+  left: 200px;
   overflow: hidden;
 }
 .v128_384 {
   width: 220px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 200px;
-  left: 0px;
   font-family: Montserrat;
   font-weight: Medium;
   font-size: 36px;
   opacity: 1;
   text-align: left;
 }
-.v128_385 {
-  width: 108px;
-  height: 57px;
-  background: url("../images/v128_385.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 186px;
-  overflow: hidden;
-}
-.v128_386 {
-  width: 108px;
-  height: 57px;
-  background: url("../images/arrow.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+
 .v128_387 {
   width: 295px;
   height: 89px;
-  background: url("../images/v128_387.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1163px;
-  left: 1315px;
+  top: 1271px;
+  left: 1600px;
   overflow: hidden;
 }
 .v128_388 {
@@ -366,15 +344,13 @@ body {
   opacity: 1;
   position: absolute;
   top: 0px;
-  left: 186px;
+  left: 200px;
   overflow: hidden;
 }
 .v128_389 {
   width: 220px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 20px;
-  left: 0px;
   font-family: Montserrat;
   font-weight: Medium;
   font-size: 36px;
@@ -384,14 +360,13 @@ body {
 .v128_390 {
   width: 295px;
   height: 89px;
-  background: url("../images/v128_390.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1414px;
-  left: 1315px;
+  top: 1427px;
+  left: 1600px;
   overflow: hidden;
 }
 .v128_391 {
@@ -403,28 +378,26 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 186px;
   overflow: hidden;
+  left: 200px;
 }
 .v128_392 {
   width: 220px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 8px;
-  left: 0px;
   font-family: Montserrat;
   font-weight: Medium;
   font-size: 36px;
   opacity: 1;
   text-align: left;
+   
 }
 .v128_393 {
   width: 430px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 130px;
-  left: 140px;
+  top: 1600px;
+  left: 1700px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
@@ -436,7 +409,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 56px;
-  left: 1188px;
+  left: 1199px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
@@ -448,7 +421,7 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 56px;
-  left: 1123px;
+  left: 1134px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
