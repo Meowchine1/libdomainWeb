@@ -27,15 +27,15 @@ body {
   opacity: 1;
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 15px;
   overflow: hidden;
 }
-.v128_362 {
+.libraryName {
   width: 111px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 56px;
-  left: 139px;
+  left: 144px;
   font-family: Playfair Display;
   font-weight: Regular;
   font-size: 20px;
@@ -113,7 +113,7 @@ body {
   left: 1370px;
   overflow: hidden;
 }
-.v128_368 {
+.vk {
   width: 29px;
   height: 30px;
   background: url("../images/vk.png");
@@ -126,7 +126,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v128_369 {
+.youtube {
   width: 38px;
   height: 30px;
   background: url("../images/youtube.png");
@@ -139,7 +139,7 @@ body {
   left: 130px;
   overflow: hidden;
 }
-.v128_370 {
+.telegram {
   width: 26px;
   height: 30px;
   background: url("../images/telegram.png");
@@ -152,7 +152,7 @@ body {
   left: 270px;
   overflow: hidden;
 }
-.v128_371 {
+.title {
   width: 720px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -164,12 +164,12 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v128_372 {
+.article {
   width: 75%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 540px;
-  left: 140px;
+  top: 447px;
+  left: 119px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
@@ -186,60 +186,60 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v128_374 {
+.lastnews {
   width: 480px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 880px;
-  left: 139px;
+  top: 765px;
+  left: 119px;
   font-family: Montserrat;
   font-weight: SemiBold;
   font-size: 36px;
   opacity: 1;
   text-align: left;
 }
-.v128_375 {
+.firstnewsname {
   width: 617px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1012px;
-  left: 139px;
+  top: 897px;
+  left: 119px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
   opacity: 1;
   text-align: left;
 }
-.v128_376 {
+.secondnewsname {
   width: 578px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1159px;
-  left: 139px;
+  top: 1044px;
+  left: 119px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
   opacity: 1;
   text-align: left;
 }
-.v128_377 {
+.thirdnewsname {
   width: 926px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1271px;
-  left: 139px;
+  top: 1156px;
+  left: 119px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
   opacity: 1;
   text-align: left;
 }
-.v128_378 {
+.fourthnewsname {
   width: 940px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1427px;
-  left: 139px;
+  top: 1312px;
+  left: 119px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
@@ -250,7 +250,7 @@ body {
  display:block; 
 }
 
-.v128_379 {
+.firstnewsblock {
   
   width: 295px;
   height: 89px;
@@ -259,11 +259,11 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1012px;
+  top: 897px;
   left: 1600px;
   overflow: hidden;
 }
-.v128_380 {
+.firstnewsarrow {
   width: 108px;
   height: 57px;
   left: 200px;
@@ -286,7 +286,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v128_382 {
+.secondnewsblock {
   width: 295px;
   height: 89px;
   background-repeat: no-repeat;
@@ -294,11 +294,11 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1159px;
+  top: 1044px;
   left: 1600px;
   overflow: hidden;
 }
-.v128_383 {
+.secondnewsarrow {
   width: 108px;
   height: 57px;
   background: url("../images/arrow.png");
@@ -322,7 +322,7 @@ body {
   text-align: left;
 }
 
-.v128_387 {
+.thirdnewsblock {
   width: 295px;
   height: 89px;
   background-repeat: no-repeat;
@@ -330,11 +330,11 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1271px;
+  top: 1156px;
   left: 1600px;
   overflow: hidden;
 }
-.v128_388 {
+.thirdnewsarrow {
   width: 108px;
   height: 57px;
   background: url("../images/arrow.png");
@@ -357,7 +357,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v128_390 {
+.fourthnewsblock {
   width: 295px;
   height: 89px;
   background-repeat: no-repeat;
@@ -365,11 +365,11 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 1427px;
+  top: 1312px;
   left: 1600px;
   overflow: hidden;
 }
-.v128_391 {
+.fourthnewsarrow {
   width: 108px;
   height: 57px;
   background: url("../images/arrow.png");
@@ -392,12 +392,12 @@ body {
   text-align: left;
    
 }
-.v128_393 {
+.showall {
   width: 430px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1600px;
-  left: 1700px;
+  top: 1445px;
+  left: 119px;
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
