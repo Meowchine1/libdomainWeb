@@ -7,7 +7,7 @@ body {
 .v128_360 {
   width: 100%;
   height: 2560px;
-  background: url("../images/background.png");
+  background: url("../images/Stacked Wave.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -17,7 +17,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v128_361 {
+.logo {
   width: 130px;
   height: 120px;
   background: url("../images/logo.png");
@@ -45,7 +45,7 @@ body {
 .v128_363 {
   
 }
-.v128_364 {
+.sourcecode {
   width: 189px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -60,8 +60,8 @@ body {
 .name {
   color: #fff;
 }
-.v128_366 {
-  width: 350px;
+.doc {
+  width: 350px;v128_366
   color: rgba(0,0,0,1);
   position: absolute;
   top: 185px;
@@ -100,7 +100,7 @@ body {
   text-align: left;
 }
 
-.v128_367 {
+.contactblock {
   width: 296px;
   height: 30px;
   background: url("../images/v128_367.png");
@@ -162,7 +162,7 @@ body {
   font-weight: SemiBold;
   font-size: 64px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
 }
 .article {
   width: 75%;
@@ -273,7 +273,6 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
- 
   overflow: hidden;
 }
 .v128_381 {
@@ -404,7 +403,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v128_755 {
+.ru {
   width: 95px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -416,7 +415,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v128_756 {
+.ruen {
   width: 63px;
   color: rgba(0,0,0,1);
   position: absolute;
