@@ -159,7 +159,7 @@ body {
   left: 600px;
   font-family: Montserrat;
   font-weight: SemiBold;
-  font-size: 64px;
+  font-size: 50px;
   opacity: 1;
   text-align: center;
 }
@@ -496,4 +496,131 @@ body {
   font-size: 36px;
   opacity: 1;
   text-align: left;
+}
+
+
+.fithnewsname {
+  width: 940px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1247px;
+  left: 119px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.fith_arrow {
+  width: 108px;
+  height: 57px;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  overflow: hidden;
+}
+
+.fith {
+  width: 295px;
+  height: 89px;
+  background: url("../images/v105_48.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1247px;
+  left: 1600px;
+  overflow: hidden;
+}
+
+
+.sixthnewsname {
+  width: 940px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1447px;
+  left: 119px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.sixth_arrow {
+  width: 108px;
+  height: 57px;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  overflow: hidden;
+}
+
+.sixth {
+  width: 295px;
+  height: 89px;
+  background: url("../images/v105_48.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1447px;
+  left: 1600px;
+  overflow: hidden;
+}
+
+
+
+.seventhnewsname {
+  width: 940px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1647px;
+  left: 119px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.seventh_arrow {
+  width: 108px;
+  height: 57px;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  overflow: hidden;
+}
+
+.seventh {
+  width: 295px;
+  height: 89px;
+  background: url("../images/v105_48.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1647px;
+  left: 1600px;
+  overflow: hidden;
 }
