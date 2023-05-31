@@ -428,3 +428,119 @@ body {
   text-align: left;
 }
 
+.fithnewsname {
+  width: 940px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1247px;
+  left: 119px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.fithnewsblock {
+  width: 295px;
+  height: 89px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1247px;
+  left: 1600px;
+  overflow: hidden;
+}
+
+.fithnewsarrow {
+  width: 108px;
+  height: 57px;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  left: 200px;
+}
+
+.sixthnewsname {
+  width: 940px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1447px;
+  left: 119px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.sixthnewsblock {
+  width: 295px;
+  height: 89px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1447px;
+  left: 1600px;
+  overflow: hidden;
+}
+
+.sixthnewsarrow {
+  width: 108px;
+  height: 57px;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  left: 200px;
+}
+
+.seventhnewsname {
+  width: 940px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1647px;
+  left: 119px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.seventhnewsblock {
+  width: 295px;
+  height: 89px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1647px;
+  left: 1600px;
+  overflow: hidden;
+}
+
+.seventhnewsarrow {
+  width: 108px;
+  height: 57px;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  left: 200px;
+}
