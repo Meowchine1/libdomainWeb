@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-size: 14px;
   margin: 0 auto;
@@ -18,16 +17,16 @@ body {
   overflow: hidden;
 }
 
-p {
+p { 
+  
   text-indent: 25px;
   font-size: 20px;
   font-family: Montserrat;
   font-weight: Regular;
 }
-
 .v111_57 {
   width: 189px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 185px;
   left: 140px;
@@ -37,14 +36,13 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .name {
   color: #fff;
 }
 
-.comp {
+.comp{
   width: 350px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 185px;
   left: 1580px;
@@ -55,9 +53,9 @@ p {
   text-align: left;
 }
 
-.progect {
+.progect{
   width: 350px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 185px;
   left: 1080px;
@@ -68,9 +66,10 @@ p {
   text-align: left;
 }
 
+
 .v104_17 {
   width: 350px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 185px;
   left: 540px;
@@ -80,7 +79,6 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .contactblock {
   width: 296px;
   height: 30px;
@@ -94,7 +92,6 @@ p {
   left: 1370px;
   overflow: hidden;
 }
-
 #vk {
   width: 3%;
   height: 30px;
@@ -105,7 +102,6 @@ p {
   opacity: 1;
   overflow: hidden;
 }
-
 #youtube {
   width: 38px;
   height: 30px;
@@ -116,7 +112,6 @@ p {
   opacity: 1;
   overflow: hidden;
 }
-
 #telegram {
   width: 26px;
   height: 30px;
@@ -127,10 +122,9 @@ p {
   opacity: 1;
   overflow: hidden;
 }
-
 .title {
   width: 720px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 300px;
   left: 600px;
@@ -140,10 +134,9 @@ p {
   opacity: 1;
   text-align: center;
 }
-
 .article {
   width: 75%;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 447px;
   left: 119px;
@@ -154,10 +147,9 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .lastnews {
   width: 480px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 765px;
   left: 119px;
@@ -167,10 +159,9 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .firstnewsname {
   width: 617px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 897px;
   left: 119px;
@@ -180,10 +171,9 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .secondnewsname {
   width: 578px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 1044px;
   left: 119px;
@@ -193,10 +183,9 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .thirdnewsname {
   width: 926px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 1156px;
   left: 119px;
@@ -206,10 +195,9 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .fourthnewsname {
   width: 940px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 1312px;
   left: 119px;
@@ -219,7 +207,6 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .firstNews {
   width: 295px;
   height: 89px;
@@ -232,7 +219,6 @@ p {
   left: 1600px;
   overflow: hidden;
 }
-
 .first_arrow {
   width: 108px;
   height: 57px;
@@ -246,10 +232,9 @@ p {
   left: 200px;
   overflow: hidden;
 }
-
 .v105_35 {
   width: 220px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 8px;
   left: 0px;
@@ -259,7 +244,6 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .v105_40 {
   width: 295px;
   height: 89px;
@@ -273,7 +257,6 @@ p {
   left: 1600px;
   overflow: hidden;
 }
-
 .second_arrow {
   width: 108px;
   height: 57px;
@@ -286,10 +269,9 @@ p {
   left: 200px;
   overflow: hidden;
 }
-
 .v105_42 {
   width: 220px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 8px;
   left: 0px;
@@ -312,7 +294,6 @@ p {
   left: 1600px;
   overflow: hidden;
 }
-
 .third_arrow {
   width: 108px;
   height: 57px;
@@ -326,10 +307,9 @@ p {
   left: 200px;
   overflow: hidden;
 }
-
 .v105_39 {
   width: 220px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -339,7 +319,6 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .fourth {
   width: 295px;
   height: 89px;
@@ -353,7 +332,6 @@ p {
   left: 1600px;
   overflow: hidden;
 }
-
 .fourth_arrow {
   width: 108px;
   height: 57px;
@@ -367,10 +345,9 @@ p {
   left: 200px;
   overflow: hidden;
 }
-
 .v105_50 {
   width: 220px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 8px;
   left: 0px;
@@ -380,19 +357,17 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .showall {
   width: 430px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 15px;
   opacity: 1;
 }
-
 .ru {
   width: 95px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 56px;
   left: 1199px;
@@ -402,10 +377,9 @@ p {
   opacity: 1;
   text-align: left;
 }
-
 .en {
   width: 63px;
-  color: rgb(0, 0, 0);
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 56px;
   left: 1134px;
@@ -416,104 +390,126 @@ p {
   text-align: left;
 }
 
-.container {
+
+.container{
   margin: 0 auto;
   max-width: 1100px;
+  // width: 100%;
+  
+
 }
 
-.header {
+.header{
   display: flex;
   flex-direction: row;
   height: 10%;
-}
-.header__menu {
-  margin-right: 5%;
-  padding-top: 10%;
-}
-.header__logo {
-  width: 130px;
-  height: 120px;
-  background: url("../images/logo.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-}
-.header__libraryName {
-  width: 111px;
-  color: rgb(0, 0, 0);
-  font-family: Playfair Display;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: left;
-  padding-top: 3%;
-}
-.header__locales {
-  display: flex;
-  flex-direction: row;
-  margin-right: 5%;
-  padding-top: 3%;
-}
-.header__loc {
-  font-family: Montserrat;
-  font-weight: Regular;
-  font-size: 20px;
-  padding-right: 3%;
-}
-.header__contact {
-  margin-right: 2%;
-  margin-top: 3%;
+
+  
+  &__menu{
+    margin-right: 5%;
+    //margin-left: 5%;
+    padding-top: 10%;
+  }
+
+  &__logo{
+    width: 130px;
+    height: 120px;
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+
+  }
+
+  &__libraryName{
+    width: 111px;
+    color: rgba(0,0,0,1);
+    font-family: Playfair Display;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+    padding-top: 3%;
+  }
+
+  &__locales{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    padding-top: 3%;
+    
+  }
+
+  &__loc{
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 20px;
+    padding-right: 3%;
+  }
+
+  &__contact{
+    margin-right: 2%;
+    margin-top: 3%;
+
+  }
 }
 
-.content {
+.content{
   height: 25%;
   margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.content__title {
-  font-family: Montserrat;
-  font-weight: bolder;
-  font-size: 40px;
-}
-.content__article {
-  width: 75%;
-}
-.content__lastnews {
+  &__title{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  &__article{
+    width: 75%;
+  }
+
+  &__lastnews{ 
   font-family: Montserrat;
   font-weight: Regular;
   font-size: 36px;
   margin-top: 5%;
   margin-bottom: 5%;
+  }
 }
 
-.newsList {
+
+
+.newsList{
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-.newsList__newsBlock {
-  margin-left: 5%;
-  font-family: Montserrat;
-  font-weight: Regular;
-  font-size: 15px;
+
+  &__newsBlock{
+    margin-left: 5%;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 15px;
+  }
 }
 
-.allnewsBlock {
+.allnewsBlock{
   height: 20%;
-}
-.allnewsBlock__allnews {
-  font-family: Montserrat;
-  font-weight: Regular;
-  font-size: 15px;
-  margin-bottom: 15%;
-  padding-left: 10%;
+
+  &__allnews{
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 15px;
+    margin-bottom: 15%;
+    padding-left: 10%;
+  }
 }
 
-.arrow {
+
+.arrow{
   display: block;
   width: 50px;
   height: 30px;
@@ -529,5 +525,5 @@ p {
 .bottom {
   width: 100%;
   height: 15%;
-  background: rgb(85, 80, 80);
-}/*# sourceMappingURL=mainRu.css.map */
+  background: rgba(85,80,80,1);
+}
