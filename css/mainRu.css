@@ -504,6 +504,7 @@ p {
 
 .allnewsBlock {
   height: 20%;
+  min-height: 100%;
 }
 .allnewsBlock__allnews {
   font-family: Montserrat;
@@ -528,6 +529,6 @@ p {
 
 .bottom {
   width: 100%;
-  height: 15%;
+  height: 200px;
   background: rgb(85, 80, 80);
 }/*# sourceMappingURL=mainRu.css.map */
