@@ -497,8 +497,8 @@ p {
 }
 
 .allnewsBlock{
-  height: 20%;
-  min-height:100%;
+  height: 100px;
+ 
   &__allnews{
     font-family: Montserrat;
     font-weight: Regular;
@@ -526,5 +526,5 @@ p {
   width: 100%;
   height: 200px;
   background: rgba(85,80,80,1);
-  
+
 }
