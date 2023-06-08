@@ -11,9 +11,6 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
   overflow: scroll;
 }
 
@@ -615,10 +612,12 @@ p {
   width: 100%;
   height: 10%;
   background: rgba(85,80,80,1);
-&____description{
-text-align: center;
-  width: 75vw;
-}
+  position: fixed;
+  bottom: 0;
+  &____description{
+    text-align: center;
+    width: 75vw;
+  }
 }
 
 
