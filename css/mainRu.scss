@@ -5,7 +5,7 @@ body {
   font-size: 14px;
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: url("../images/Stacked Wave.svg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -14,16 +14,16 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 p { 
-  
   text-indent: 25px;
   font-size: 20px;
   font-family: Montserrat;
   font-weight: Regular;
 }
+
 .v111_57 {
   width: 189px;
   color: rgba(0,0,0,1);
@@ -90,17 +90,17 @@ p {
   position: absolute;
   top: 53px;
   left: 1370px;
-  overflow: hidden;
 }
+
 #vk {
-  width: 3%;
+  width: 38px;
   height: 30px;
   background: url("../images/vk.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  overflow: hidden;
+ 
 }
 #youtube {
   width: 38px;
@@ -110,7 +110,6 @@ p {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  overflow: hidden;
 }
 #telegram {
   width: 26px;
@@ -393,33 +392,35 @@ p {
 
 .container{
   margin: 0 auto;
-  max-width: 1100px;
-  // width: 100%;
-  
-
+  max-width: 1000px;
+  height: 100vh; 
 }
 
 .header{
   display: flex;
   flex-direction: row;
-  height: 10%;
+  height: 20vh;
+  width: 100vw;
 
   
   &__menu{
-    margin-right: 5%;
-    //margin-left: 5%;
-    padding-top: 10%;
+    width: 100pw;
+    margin-right: 7vh;
+    padding-top: 6%;
+    font-family: Playfair Display;
+    font-weight: Regular;
+    font-size: 15px;
   }
 
   &__logo{
-    width: 130px;
-    height: 120px;
+    width: 100px;
+    height: 80px;
     background: url("../images/logo.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    overflow: hidden;
+    overflow: visible;
 
   }
 
@@ -445,69 +446,157 @@ p {
   &__loc{
     font-family: Montserrat;
     font-weight: Regular;
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 3%;
+    
   }
 
-  &__contact{
+  &__contactblock{
+    display: flex;
+    flex-direction: row;
     margin-right: 2%;
-    margin-top: 3%;
-
+    padding-top: 3vh;
+    width: 100px;
+    height: 80px;
   }
 }
 
+  .content{
+    height: 20pv;
+    margin-top: 5pv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title{
+      font-family: Montserrat;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+  
+    &__article{
+      width: 75pv;
+      font-family: Montserrat;
+      font-size: 10px;
+    }
+    &__lastnews{
+        font-family: Montserrat;
+        font-weight: Regular;
+        font-size: 30px;
+        width: 100%;
+        text-align: left;
+        padding: 0 0 6px 10px;
+        border-left: 10px solid rgba(85,80,80,1);
+        border-bottom: 2px solid rgba(85,80,80,1);
+    }
+   
+  }
+  
+  .newsList{
+    height: 50pv;
+    display: grid;
+    // flex-direction: row;
+    // align-items: center;
+  
+    &__newsBlock{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 5pv;
+      font-family: Montserrat;
+      font-weight: Regular;
+      font-size: 20px;
+    }
+  }
+  
+  .allnewsBlock{
+    height: 10pv;
+   
+    &__allnews{
+      font-family: Montserrat;
+      font-weight: Regular;
+      font-size: 15px;
+      
+    }
+  }
+  
+  
+  .arrow{
+    display: block;
+    width: 50px;
+    height: 30px;
+    background: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+  
+  .bottom {
+    width: 100%;
+    height: 10%;
+    background: rgba(85,80,80,1);
+  
+  }
+
 .content{
-  height: 25%;
-  margin-top: 5%;
+  height: 30pv;
+  margin-top: 5pv;
   display: flex;
   flex-direction: column;
   align-items: center;
   &__title{
     font-family: Montserrat;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   &__article{
-    width: 75%;
+    width: 75pv;
+    font-family: Montserrat;
+    font-size: 20px;
   }
-
-  &__lastnews{ 
-  font-family: Montserrat;
-  font-weight: Regular;
-  font-size: 36px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  &__lastnews{
+      font-family: Montserrat;
+      font-weight: Regular;
+      font-size: 30px;
+      width: 100%;
+      text-align: left;
+      padding: 0 0 6px 10px;
+      border-left: 10px solid rgba(85,80,80,1);
+      border-bottom: 2px solid rgba(85,80,80,1);
   }
+ 
 }
 
-
-
 .newsList{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  height: 50pv;
+  display: grid;
+  // flex-direction: row;
+  // align-items: center;
 
   &__newsBlock{
-    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5pv;
     font-family: Montserrat;
     font-weight: Regular;
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
 .allnewsBlock{
-  height: 100px;
+  height: 10pv;
  
   &__allnews{
     font-family: Montserrat;
     font-weight: Regular;
     font-size: 15px;
-    margin-bottom: 15%;
-    padding-left: 10%;
+    
   }
 }
-
 
 .arrow{
   display: block;
@@ -524,7 +613,110 @@ p {
 
 .bottom {
   width: 100%;
-  height: 200px;
+  height: 10%;
   background: rgba(85,80,80,1);
+&____description{
+text-align: center;
+  width: 75vw;
+}
+}
+
+
+@media screen and (max-width: 1100px) {
+  .container{
+    margin: 0 auto;
+    max-width: 500px;
+    height: 100vh; 
+  }
+  
+  .header{
+    display: grid;
+    grid-template-columns: repeat(4, 115px);
+    width: 100vw;
+    height: 25vh;
+  
+  &__menu{
+    padding-top: 6%;
+    margin-right: 2%;
+    font-size: 15px;
+  }
+
+  &__logo{
+    width: 70px;
+    height: 80px;
+  }
+
+  &__libraryName{
+    font-size: 15px;
+  }
+
+  &__locales{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    padding-top: 3%;
+  }
+
+  &__loc{
+    font-size: 10px;
+    padding-right: 3%;
+  }
+
+  &__contactblock{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+}
+
+
+@media screen and (max-width: 500px) {
+  .container{
+    margin: 0 auto;
+    max-width: 300px;
+    height: 100vh; 
+  }
+  
+  .header{
+    display: grid;
+    grid-template-columns: repeat(2, 115px);
+    width: 100vw;
+    height: 40vh;
+  
+  &__menu{
+    padding-top: 4%;
+    font-size: 15px;
+  }
+
+  &__logo{
+    width: 50px;
+    height: 50px;
+  }
+
+  &__libraryName{
+    font-size: 15px;
+  }
+
+  &__locales{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  &__loc{
+    font-size: 10px;
+    padding-right: 3%;
+  }
+
+  &__contactblock{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    // display: flex;
+    // justify-content: space-between;
+   
+  }
+}
 
 }
