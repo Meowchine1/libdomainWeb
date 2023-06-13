@@ -140,6 +140,17 @@ p{
   top: 0;
 }
 
+article {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+article ul{
+
+  list-style: circle; 
+  font-size: 25px;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;

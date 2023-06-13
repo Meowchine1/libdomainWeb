@@ -1,0 +1,105 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- App title -->
+    <title>Responsive Pure CSS Menu</title>
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="./css/mainEn.css" />
+    <!--FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header class="header">
+      <!-- Logo -->
+      <a href="index.html" class="logo">libdomain</a>
+
+      <!-- Hamburger icon -->
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"
+        ><span class="hamb-line"></span
+      ></label>
+      <!-- Menu -->
+      <nav class="nav">
+        <ul class="menu">
+          <li>
+            <a href="https://github.com/libdomain/libdomain">Исходный код</a>
+          </li>
+          <li>
+            <a href="https://august-alt.github.io/libdomain/common_8c.html"
+              >Документация</a
+            >
+          </li>
+          <li><a href="projectEn.html">О проекте</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main content -->
+    <main>
+      <article>
+        <h1>О проекте</h1>
+        <p>
+          libdomain — проект открытой библиотеки, абстрагирующей доступ к
+          доменной инфраструктуре и предоставляющей высокоуровневое API для
+          управления объектами службы каталогов. Проект перспективен в области
+          импортозамещения в части миграции с импортных доменов Microsoft Active
+          Directory на отечественные разработки доменных инфраструктур.
+        </p>
+        <p>
+          Необходимость реализации графических и консольных приложений для
+          администрирования домена требует программного интерфейса для доступа к
+          данным службы каталогов. Отсутствие такого программного интерфейса
+          требует включения всей логики для управления доменом в каждое
+          соответствующее приложение, а также влечет за собой многократное
+          дублирование кода. В связи с чем выглядит целесообразным перенос
+          логики управления доменом в отдельную библиотеку.
+        </p>
+
+        <p>
+          Данную разработку планируется интегрировать в наши текущие проекты
+          <a href="https://github.com/altlinux/admc">ADMC </a>,
+          <a href="https://github.com/august-alt/gpui">GPUI</a>, встроенные в
+          дистрибутивные решения ОС “Альт”.
+        </p>
+        <p>
+          Также данную разработку планируется использовать при реализации новых
+          проектов, в частности модуля для управления Active Directory в
+          PowerShell под Linux.
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <a href="#"><i class="fa fa-vk"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-telegram"></i></a>
+        </div>
+
+        <div class="row">
+          <ul>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="projectEn.html">EN</a></li>
+          </ul>
+        </div>
+
+        <div class="row">Copyright © 2023</div>
+      </div>
+    </footer>
+  </body>
+</html>
