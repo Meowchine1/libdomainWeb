@@ -184,7 +184,9 @@ table tbody td:last-child {
   width: 30%; /* задание ширины для последней колонки */
 }
 
-
+table .all{
+  text-align: right;
+}
 
 .footer {
   bottom: 0;
