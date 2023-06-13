@@ -35,7 +35,13 @@ h1, p {
   width: 75vw;
   text-indent: 20px;
 }
-
+h1{
+  margin-top: 2%;
+  font-size: 30px;
+}
+p{
+  font-size: 25px;
+}
 /* Header */
 .header {
   background-color: var(--black);
@@ -75,6 +81,9 @@ h1, p {
 .nav {
   max-height: 0;
   transition: max-height 0.5s ease-out;
+}
+.nav a{
+  font-size: 20px;
 }
 
 /* Menu Icon */
@@ -131,57 +140,51 @@ h1, p {
   top: 0;
 }
 
-.news_list_con {
-  width: 75%;
-  height: 370px;
-  border: 1px solid #ddd;
-  margin: 50px auto 50px;
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+table caption{
+  font-size: 30px;
 }
 
-.news_list_con h3 {
-  margin: 0 auto;
-  width: 75%;
-  height: 50px;
+table th, table td {
+  padding: 8px;
+  text-align: left;
   border-bottom: 1px solid #ddd;
+  vertical-align: top; /* выравнивание содержимого ячеек по верхнему краю */
+  font-size: 20px;
 }
 
-.news_list_con h3 span {
-  display: inline-block;
-  height: 50px;
-  border-bottom: 2px solid #f00;
-  font: normal 20px/50px "";
-  padding: 0 10px;
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
 }
 
-.news_list_con ul {
-  list-style: none;
-  width: 75%;
-  margin: 12px auto 0px;
+table tr:hover {
+  background-color: #e6e5f7;
 }
 
-.news_list_con li {
-  height: 50px;
-  border-bottom: 1px solid #ddd;
-  line-height: 37px;
+table a:hover {
+ color:red;
 }
 
-.news_list_con li a:before {
-  content: "·";
+table tbody td {
+  overflow: hidden; /* скрытие части содержимого ячейки, которое не помещается */
+  text-overflow: ellipsis; /* добавление многоточия для скрытой части содержимого ячейки */
 }
 
-.news_list_con li a {
-  float: left;
-  text-decoration: none;
-  font: normal 18px/36px "";
+table tbody td:first-child {
+  width: 20%; /* задание ширины для первой колонки */
 }
 
-.news_list_con li a:hover {
-  color: red;
+table tbody td:last-child {
+  width: 30%; /* задание ширины для последней колонки */
 }
 
-.news_list_con li span {
-  float: right;
-}
+
 
 .footer {
   bottom: 0;
@@ -190,6 +193,7 @@ h1, p {
   padding: 30px 0px;
   font-family: "Play", sans-serif;
   text-align: center;
+  font-size: 20px;
 }
 
 .footer .row {
@@ -298,48 +302,3 @@ h1, p {
     display: none;
   }
 }/*# sourceMappingURL=menuTry.css.map */
-
-
-@media(max-width: 1000px){
-    .news_list_con li span {
-        display: none;
-      }
-      .news_list_con li {
-        height: 100px;
-        line-height: 100px;
-      }
-      .news_list_con {
-        height: 670px;
-      }
-}
-
-@media(max-width: 400px){
-    .news_list_con li span {
-        display: none;
-      }
-
-      .news_list_con li {
-        height: 150px;
-        line-height: 150px;
-      }
-
-      .news_list_con {
-        height: 900px;
-        margin: 50px auto 50px;
-      }
-
-      .logo{
-
-        font-size: 40px;
-      }
-}
-
-@media(max-width: 250px){
-    .news_list_con h3 {
-        height: 100px;
-      }
-      
-      .news_list_con h3 span {
-        height: 100px;
-      }
-}
