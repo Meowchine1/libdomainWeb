@@ -49,9 +49,17 @@ p{
   background-color: var(--black);
   box-shadow: 1px 1px 5px 0px var(--gray);
   position: sticky;
-  top: 0;
+  top: -50;
   width: 100%;
+  height: 120px;
 }
+
+.header-inner {
+  height: 70px;
+  position: sticky;
+  top: 0; 
+}
+
 
 /* Logo */
 .logo {
@@ -67,6 +75,7 @@ p{
   position: fixed;
   background-color: var(--black);
   overflow: hidden;
+  height: 70px;
 }
 
 .menu a {
@@ -83,6 +92,7 @@ p{
 .nav {
   max-height: 0;
   transition: max-height 0.5s ease-out;
+  top: -50px;
 }
 .nav a{
   font-size: 20px;
