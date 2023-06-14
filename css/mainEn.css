@@ -21,6 +21,7 @@ body {
 main {
   margin: 0 auto;
   max-width: 90vw;
+  min-height: calc(100vh - 20px);
 }
 
 a {
@@ -205,7 +206,7 @@ table .all {
 
 .footer {
   bottom: 0;
-  height: 30vh;
+  height: 35vh;
   background: #000;
   padding: 30px 0px;
   font-family: "Play", sans-serif;
