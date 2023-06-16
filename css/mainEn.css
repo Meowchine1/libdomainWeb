@@ -337,7 +337,7 @@ table .all {
 @media (min-width: 800px) {
   .nav {
     max-height: none;
-    top: 0px;
+    top: -10px;
     position: relative;
     float: right;
     width: fit-content;
