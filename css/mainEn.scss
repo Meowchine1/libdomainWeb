@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Theming */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|PT+Sans+Caption&subset=latin,cyrillic);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 :root {
   --white: #f9f9f9;
@@ -15,18 +16,19 @@
 
 body {
    
-  background-color: var(--white);
+  background-color:#40424b;
   font-family: "Poppins", sans-serif;
 }
 
 main {
   margin: 0 auto;
-  max-width: 90vw;
+  max-width: 60vw;
   min-height: calc(100vh - 20px);
 }
 
 a {
   text-decoration: none;
+  
 }
 
 ul {
@@ -34,24 +36,34 @@ ul {
 }
 
 h1, p {
-  width: 75vw;
   text-indent: 20px;
   font-family: Open Sans,ui-sans-serif,system-ui,sans-serif;
+ 
+  
 }
 h1{
-  margin-top: 2%;
-  font-size: 30px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 70px;
+  color: #c0bfcf;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 10px;
+ 
+  
 }
 p{
   font-size: 25px;
+  color: whitesmoke;
+  
+   
 }
 /* Header */
 .header {
   background-color: var(--black);
-  box-shadow: 1px 1px 5px 0px var(--gray);
+  box-shadow: 2px 1px 5px 0px black;
   position: sticky;
-  top: -50;
-  width: 100%;
+  top: -50px;
+  width: 100vw;
   height: 120px;
   font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
 }
@@ -75,31 +87,25 @@ p{
 .nav {
   width: 100%;
   position: fixed;
+  background-color: var(--black);
   overflow: hidden;
-  height: 70px;
 }
-
 .menu a {
   display: block;
   padding: 30px;
   color: white;
-  font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
 }
-
 .menu a:hover {
   background-color: black;
   transition: 0.5s;
 }
-
 .nav {
   max-height: 0;
   transition: max-height 0.5s ease-out;
-  top: -50px;
 }
 .nav a{
   font-size: 20px;
 }
-
 /* Menu Icon */
 .hamb {
   cursor: pointer;
@@ -123,15 +129,12 @@ p{
   transition: all 0.2s ease-out;
   width: 100%;
 }
-
 .hamb-line::before {
   top: 5px;
 }
-
 .hamb-line::after {
   top: -5px;
 }
-
 .side-menu {
   display: none;
 } /* Hide checkbox */
@@ -139,16 +142,13 @@ p{
 .side-menu:checked ~ nav {
   max-height: 100%;
 }
-
 .side-menu:checked ~ .hamb .hamb-line {
   background: transparent;
 }
-
 .side-menu:checked ~ .hamb .hamb-line::before {
   transform: rotate(-45deg);
   top: 0;
 }
-
 .side-menu:checked ~ .hamb .hamb-line::after {
   transform: rotate(45deg);
   top: 0;
@@ -167,18 +167,21 @@ article ul{
 
 table {
   border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 5%;
+
+  margin-bottom: 5vh;
   margin-top: 3%;
-  background-color: #f3f4f6;
+  background-color: #40424b;
 }
 table caption{
-  font-size: 30px;
+  font-size: 50px;
+  color: #b1ade2;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
 }
 
 table th, table td {
   padding: 8px;
-  text-align: left;
+ 
   border-bottom: 1px solid #ddd;
   vertical-align: top; /* выравнивание содержимого ячеек по верхнему краю */
   font-size: 20px;
@@ -190,7 +193,10 @@ table th {
 }
 
 table tr:hover {
-  background-color: #e6e5f7;
+  background-color: #b1ade2;
+}
+table a {
+  color: whitesmoke;
 }
 
 table a:hover {
@@ -257,6 +263,20 @@ table .all{
 }
 
 @media (max-width: 720px) {
+  h1{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+  
+  }
+  .logo{
+    font-size: 40px;
+  }
+  table caption{
+    font-size: 30px;
+  }
+  
   .footer {
     text-align: left;
     padding: 5%;
@@ -315,7 +335,7 @@ table .all{
 @media (min-width: 800px) {
   .nav {
     max-height: none;
-    top: 0;
+    top: 0px;
     position: relative;
     float: right;
     width: fit-content;
@@ -331,3 +351,8 @@ table .all{
     display: none;
   }
 }/*# sourceMappingURL=menuTry.css.map */
+
+
+.yandex{
+background-image: url("/home/SMB.BASEALT.RU/vor/Загрузки/libdomainPages/libdomainProject/images/yandex.svg/yandex.svg");
+}
