@@ -6,6 +6,7 @@
   --white: #f9f9f9;
   --black: #36383F;
   --gray: #85888C;
+  --blue: #51a2da;
 } /* variables*/
 /* Reset */
 * {
@@ -15,8 +16,10 @@
 }
 
 body {
-   
-  background-color:#40424b;
+  
+  background: -webkit-linear-gradient(180deg, rgb(140, 185, 216), rgb(81, 162, 218) 33%);
+background: -moz-linear-gradient(180deg, rgb(140, 185, 216), rgb(81, 162, 218) 33%);
+background: linear-gradient(180deg, rgb(140, 185, 216), rgb(81, 162, 218) 33%);
   font-family: "Poppins", sans-serif;
 }
 
@@ -28,7 +31,7 @@ main {
 
 a {
   text-decoration: none;
-  color:#98a2db;
+  color:#ffffff;
   
 }
  
@@ -38,16 +41,15 @@ ul {
 }
 
 h1, p {
-  text-indent: 20px;
   font-family: Open Sans,ui-sans-serif,system-ui,sans-serif;
- 
+  color: rgb(7, 7, 7);
   
 }
 h1{
   margin-top: 2vh;
   margin-bottom: 2vh;
   font-size: 70px;
-  color: #c0bfcf;
+   
   font-family: 'Roboto Slab', serif;
   letter-spacing: 10px;
  
@@ -55,18 +57,17 @@ h1{
 }
 p{
   font-size: 25px;
-  color: whitesmoke;
+ 
   
    
 }
 /* Header */
 .header {
-  background-color: var(--black);
-  box-shadow: 2px 1px 5px 0px black;
+  background-color: var(--blue);
   position: sticky;
-  top: -50px;
+  top: -40px;
   width: 100vw;
-  height: 120px;
+  height: 90px;
   font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
 }
 
@@ -80,33 +81,39 @@ p{
 /* Logo */
 .logo {
   display: inline-block;
-  color: var(--white);
-  font-size: 60px;
+  color: #000;
+  font-size: 40px;
+  font-stretch: condensed;
+  font-weight: 700;
   margin-left: 10px;
+  padding-top: 20px;
+  
 }
 
 /* Nav menu */
 .nav {
   width: 100%;
   position: fixed;
-  background-color: var(--black);
-  overflow: hidden;
+  background-color: var(--blue);
+  overflow: hidden; 
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+  
 }
 .menu a {
   display: block;
   padding: 30px;
-  color: white;
+  color: black;
 }
 .menu a:hover {
   background-color: black;
   transition: 0.5s;
 }
-.nav {
-  max-height: 0;
-  transition: max-height 0.5s ease-out;
-}
+
 .nav a{
   font-size: 20px;
+  padding-top: 100px;
+  height: 100px;
 }
 /* Menu Icon */
 .hamb {
@@ -168,41 +175,47 @@ article ul{
 }
 
 table {
-  border-collapse: collapse;
-
+  //border-collapse: collapse;
   margin-bottom: 5vh;
   margin-top: 3%;
-  background-color: #40424b;
+  background: rgb(0,74,126);
+  background: linear-gradient(90deg, rgba(0,74,126,1) 0%, rgba(15,147,238,0) 0%, rgba(0,138,233,0) 100%);
+  border-radius: 5px; /* Уголки */
 }
 table caption{
   font-size: 50px;
-  color: #b1ade2;
+  color: #3b3b3b;
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
 }
 
 table th, table td {
   padding: 8px;
- 
-  border-bottom: 1px solid #ddd;
+  border-bottom: 0px solid #ddd;
   vertical-align: top; /* выравнивание содержимого ячеек по верхнему краю */
   font-size: 20px;
 }
 
 table th {
-  background-color: #f2f2f2;
+  background-color: #0a0a0a;
   font-weight: bold;
+}
+table tr {
+  background: rgb(188,250,2);
+  background: linear-gradient(90deg, rgba(188,250,2,0.22591043253238796) 0%, rgba(15,134,238,0.34635861180409666) 57%, rgba(246,246,246,0.08585441012342432) 100%);
+  
 }
 
 table tr:hover {
-  background-color: #b1ade2;
+  background-color: #346d9670;
+  transition: 0.5s;
 }
 table a {
-  color: whitesmoke;
+  color: black;
 }
 
 table a:hover {
- color:red;
+ color:#133c5ab7;
 }
 
 table tbody td {
@@ -282,13 +295,22 @@ table .all{
   .footer {
     text-align: left;
     padding: 5%;
-    height: 40vh;
+    height: 70vh;
+     
   }
   .footer .row ul li {
     display: block;
     margin: 10px 0px;
     text-align: left;
+    
   }
+  .footer .row  {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+    
+  }
+
   .footer .row a i {
     margin: 0% 3%;
   }
@@ -334,10 +356,10 @@ table .all{
 }
 
 /* Responsiveness */
-@media (min-width: 800px) {
+@media (min-width: 870px) {
   .nav {
     max-height: none;
-    top: -10px;
+    top: -70px;
     position: relative;
     float: right;
     width: fit-content;
@@ -354,6 +376,22 @@ table .all{
   }
 }/*# sourceMappingURL=menuTry.css.map */
 
+
+@media (max-width: 300px){
+  .logo{
+    font-size: 20px;
+  }
+}
+
+ @media (max-height: 500px) 
+       {
+  .footer {
+    height: 400px;
+  
+  }
+
+
+}
 
 .yandex{
 background-image: url("/home/SMB.BASEALT.RU/vor/Загрузки/libdomainPages/libdomainProject/images/yandex.svg/yandex.svg");
