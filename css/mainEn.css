@@ -39,6 +39,17 @@ ul {
   list-style: none;
 }
 
+article .news {
+  background: rgb(169, 220, 255);
+  background: linear-gradient(180deg, rgba(169, 220, 255, 0.8421569311) 0%, rgba(185, 206, 219, 0.7861345222) 25%, rgb(185, 206, 219) 50%, rgba(185, 206, 219, 0.8673670152) 75%, rgba(169, 220, 255, 0.8673670152) 100%);
+}
+
+.news {
+  /* Сверху | Справа | Снизу | Слева */
+  padding: 2px 5em 2em 5em;
+  border-radius: 2em;
+}
+
 h1, p {
   font-family: Open Sans, ui-sans-serif, system-ui, sans-serif;
   color: rgb(7, 7, 7);
