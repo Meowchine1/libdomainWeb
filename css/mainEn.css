@@ -84,8 +84,8 @@ p {
 /* Logo */
 .logo {
   padding: 2%;
-  content: url("../images/montesarate/2.svg");
-  
+  content: url("../images/montesarate/2.png");
+  padding-bottom: 2%;
   }
 
 /* Nav menu */
