@@ -52,19 +52,15 @@ hr{
 h1, p {
   font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
   color: rgb(7, 7, 7);
-  text-align: justify;
-// background: rgb(169,220,255);
-// background: linear-gradient(180deg, rgba(169,220,255,0.8421569311318278) 0%, rgba(185,206,219,0.7861345221682423) 25%, rgba(185,206,219,1) 50%, rgba(185,206,219,0.8673670151654411) 75%, rgba(169,220,255,0.8673670151654411) 100%);
-// border-style: groove;
-  
+  text-align: justify;  
 }
+
 h1{
   margin-top: 2vh;
   margin-bottom: 2vh;
-  font-size: 60px;
-  //text-transform: uppercase;
-//  letter-spacing: 10px;
+  font-size: 50px;
 }
+
 p{
   font-size: 25px;
 }
@@ -88,27 +84,23 @@ background: linear-gradient(90deg, rgba(81,162,218,1) 50%, rgba(60,110,180,1) 10
 
 /* Logo */
 .logo {
-  // display: inline-block;
-  // font-size: 40px;
-  padding: 30px;
+  padding: 2%;
   content:url("/images/montesarate/2.svg");
-// font-family: 'Nanum Gothic', sans-serif;
-// font-family: 'Pacifico', cursive;
-// font-stretch: condensed;
-// font-weight: 700;
-  
 }
 
 /* Nav menu */
 .nav {
   width: 100%;
   position: fixed;
-  //background-color: var(--blue);
   overflow: hidden; 
   max-height: 0;
-  transition: max-height 0.5s ease-out;
-  
+  transition: max-height 0.5s ease-out;  
 }
+
+.menu{
+  padding-top: 2%;
+}
+
 .menu a {
   display: block;
   padding: 30px;
@@ -116,10 +108,11 @@ background: linear-gradient(90deg, rgba(81,162,218,1) 50%, rgba(60,110,180,1) 10
   font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
   font-weight: 500;
 }
-.menu li{
 
+.menu li{
   list-style-type:none;
 }
+
 .menu a:hover {
   background-color: black;
   transition: 0.5s;
@@ -131,12 +124,15 @@ background: linear-gradient(90deg, rgba(81,162,218,1) 50%, rgba(60,110,180,1) 10
   height: 100px;
   
 }
+
 /* Menu Icon */
 .hamb {
   cursor: pointer;
   float: right;
   padding: 40px 20px;
-} /* Style label tag */
+} 
+
+/* Style label tag */
 .hamb-line {
   background: var(--white);
   display: block;
@@ -196,12 +192,10 @@ article ul{
 }
 
 table {
-  // margin-bottom: 5%;
   margin-bottom: 2%;
   background: transparent radial-gradient(ellipse at 50% 50%,#294172 15%,#233862 70%) repeat scroll 0 0;
   color: white;
   border-collapse: collapse;
-  //table-layout: fixed;
   width: 100%;
   padding-bottom: 2%;
   
@@ -266,9 +260,8 @@ table tbody td:last-child {
   font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
   text-align: center;
   font-size: 20px;
-// position: relative;
-
 }
+
 li a :hover{
   color: #85888C;
 }
@@ -436,10 +429,4 @@ tr td {font-size: 10px;}
     height: 400px;
   
   }
-
-
-}
-
-.yandex{
-background-image: url("/home/SMB.BASEALT.RU/vor/Загрузки/libdomainPages/libdomainProject/images/yandex.svg/yandex.svg");
 }
