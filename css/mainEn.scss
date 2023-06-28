@@ -20,43 +20,39 @@
 }
 
 body {
-  
-  background: rgb(81,162,218);
-  background: linear-gradient(180deg, rgba(81,162,218,0.5648460067620799) 2%, rgba(235,235,235,0.6068628134847689) 21%, rgba(185,206,219,0.8309524493391106) 60%);
-  font-family: "Poppins", sans-serif;
+  font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
+  background-color: #e5e7eb;
 }
 
 main {
   margin: 0 auto;
-  max-width: 60vw;
+  max-width: 60%;
   min-height: calc(100vh - 20px);
+  background-color: white;
+}
+
+.frame{
+  margin: 0 auto;
+  max-width: 80%;
+  min-height: calc(100vh - 20px);
+  background-color: white;
+  margin-top: 3%;
 }
 
 a {
   text-decoration: none;
-  color:#ffffff;
-  
-}
- 
-
-ul {
-  list-style: none;
+  color:#ffffff; 
 }
 
-article .news{
-background: rgb(169,220,255);
-background: linear-gradient(180deg, rgba(169,220,255,0.8421569311318278) 0%, rgba(185,206,219,0.7861345221682423) 25%, rgba(185,206,219,1) 50%, rgba(185,206,219,0.8673670151654411) 75%, rgba(169,220,255,0.8673670151654411) 100%);
-
-}
-.news{
- /* Сверху | Справа | Снизу | Слева */
-  padding: 2px 5em 2em 5em;
-  border-radius: 2em;
+hr{
+  color: e5e7eb;
+  margin-bottom: 2%;
 }
 
 h1, p {
-  font-family: Open Sans,ui-sans-serif,system-ui,sans-serif;
+  font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
   color: rgb(7, 7, 7);
+  text-align: justify;
 // background: rgb(169,220,255);
 // background: linear-gradient(180deg, rgba(169,220,255,0.8421569311318278) 0%, rgba(185,206,219,0.7861345221682423) 25%, rgba(185,206,219,1) 50%, rgba(185,206,219,0.8673670151654411) 75%, rgba(169,220,255,0.8673670151654411) 100%);
 // border-style: groove;
@@ -65,24 +61,21 @@ h1, p {
 h1{
   margin-top: 2vh;
   margin-bottom: 2vh;
-  font-size: 70px;
-  text-transform: uppercase;
-  font-family: 'Sniglet', cursive;
-  letter-spacing: 10px;
-  
+  font-size: 60px;
+  //text-transform: uppercase;
+//  letter-spacing: 10px;
 }
 p{
   font-size: 25px;
-  font-family: 'Sniglet', cursive;
-  
 }
 /* Header */
 .header {
-  background-color: var(--blue);
+  background: rgb(81,162,218);
+background: linear-gradient(90deg, rgba(81,162,218,1) 50%, rgba(60,110,180,1) 100%);
   position: sticky;
   top: -40px;
   width: 100vw;
-  height: 90px;
+  height: 80px;
   font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
 }
 
@@ -95,15 +88,14 @@ p{
 
 /* Logo */
 .logo {
-  display: inline-block;
-  color: #000;
-  font-size: 40px;
-  font-stretch: condensed;
-  font-weight: 700;
-  margin-left: 30px;
-  padding-top: 10px;
-  font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Pacifico', cursive;
+  // display: inline-block;
+  // font-size: 40px;
+  padding: 30px;
+  content:url("/images/montesarate/2.svg");
+// font-family: 'Nanum Gothic', sans-serif;
+// font-family: 'Pacifico', cursive;
+// font-stretch: condensed;
+// font-weight: 700;
   
 }
 
@@ -111,7 +103,7 @@ font-family: 'Pacifico', cursive;
 .nav {
   width: 100%;
   position: fixed;
-  background-color: var(--blue);
+  //background-color: var(--blue);
   overflow: hidden; 
   max-height: 0;
   transition: max-height 0.5s ease-out;
@@ -121,9 +113,12 @@ font-family: 'Pacifico', cursive;
   display: block;
   padding: 30px;
   color: black;
-  font-family: 'Sniglet', cursive;
+  font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
+  font-weight: 500;
+}
+.menu li{
 
-
+  list-style-type:none;
 }
 .menu a:hover {
   background-color: black;
@@ -134,6 +129,7 @@ font-family: 'Pacifico', cursive;
   font-size: 20px;
   padding-top: 100px;
   height: 100px;
+  
 }
 /* Menu Icon */
 .hamb {
@@ -185,34 +181,45 @@ font-family: 'Pacifico', cursive;
 
 article {
   margin-top: 5%;
-  margin-bottom: 5%;
 }
 
 article ul{
-
-  list-style: circle; 
   font-size: 25px;
 }
 
-table {
-  //border-collapse: collapse;
-  margin-bottom: 5vh;
-  margin-top: 3%;
-  background: rgb(0,74,126);
-  background: linear-gradient(90deg, rgba(0,74,126,1) 0%, rgba(15,147,238,0) 0%, rgba(0,138,233,0) 100%);
-  border-radius: 5px; /* Уголки */
+.article_h1{
+  font-size: 50px;
 }
+
+.also{
+  padding: 5px 1em 0 2em;
+}
+
+table {
+  // margin-bottom: 5%;
+  margin-bottom: 2%;
+  background: transparent radial-gradient(ellipse at 50% 50%,#294172 15%,#233862 70%) repeat scroll 0 0;
+  color: white;
+  border-collapse: collapse;
+  //table-layout: fixed;
+  width: 100%;
+  padding-bottom: 2%;
+  
+}
+
+
 table caption{
   font-size: 50px;
-  color: #3b3b3b;
-  font-family: 'Sniglet', cursive;
+  color: #ffffff;
+  font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
 }
 
 table th, table td {
   padding: 8px;
-  border-bottom: 0px solid #ddd;
+  border: 10px solid white; 
   vertical-align: top; /* выравнивание содержимого ячеек по верхнему краю */
   font-size: 20px;
+  border-radius: 5px; /* Уголки */
 }
 
 table td:nth-child(2) {
@@ -223,22 +230,14 @@ table th {
   background-color: #0a0a0a;
   font-weight: bold;
 }
-table tr {
-  background: rgb(188,250,2);
-  background: linear-gradient(90deg, rgba(188,250,2,0.22591043253238796) 0%, rgba(15,134,238,0.34635861180409666) 57%, rgba(246,246,246,0.08585441012342432) 100%);
-  
-}
+
 
 table tr:hover {
-  background-color: #346d9670;
+  background-color:#324b7e;
   transition: 0.5s;
 }
 table a {
-  color: black;
-}
-
-table a:hover {
- color:#133c5ab7;
+  color: rgb(255, 255, 255);
 }
 
 table tbody td {
@@ -247,42 +246,43 @@ table tbody td {
 }
 
 table tbody td:first-child {
-  width: 20%; /* задание ширины для первой колонки */
+  width: 50%; /* задание ширины для первой колонки */
 }
 
 table tbody td:last-child {
   width: 30%; /* задание ширины для последней колонки */
 }
 
-table .all{
-  text-align: right;
+.all a{
+  color: rgb(247, 9, 9);
+  font-weight: 600;
 }
 
 .footer {
   bottom: 0;
-  height: 35vh;
+  height: 40vh;
   background: #000;
   padding: 30px 0px;
-  font-family: 'Sniglet', cursive;
+  font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
   text-align: center;
   font-size: 20px;
+// position: relative;
+
+}
+li a :hover{
+  color: #85888C;
 }
 
 .footer .row {
   width: 100%;
   margin: 1% 0%;
   padding: 0.6% 0%;
-  color: gray;
+  color: #fff;
   font-size: 0.8em;
 }
 
 .footer .row a {
   text-decoration: none;
-  color: gray;
-  transition: 0.5s;
-}
-
-.footer .row a:hover {
   color: #fff;
 }
 
@@ -298,6 +298,19 @@ table .all{
 .footer .row a i {
   font-size: 2em;
   margin: 0% 1%;
+}
+.hrefs{
+  text-align: right;
+ 
+}
+.hrefs :hover{
+  color: #85888C;
+  transition: 0.5s;
+}
+
+.hrefs a {
+  padding-right: 2%;
+   
 }
 
 @media (max-width: 720px) {
@@ -378,6 +391,11 @@ table .all{
   overflow: hidden;
 }
 
+.contacts{
+  text-align: left;
+  color: white;
+}
+
 /* Responsiveness */
 @media (min-width: 870px) {
   .nav {
@@ -392,18 +410,24 @@ table .all{
   }
   .menu a:hover {
     background-color: transparent;
-    color: var(--gray);
+    color: rgb(57, 57, 58)
   }
   .hamb {
     display: none;
   }
 }/*# sourceMappingURL=menuTry.css.map */
 
+@media (max-width: 500px){
+  table td:nth-child(2) {
+    display: none;
+  }
+}
 
 @media (max-width: 300px){
   .logo{
     font-size: 20px;
   }
+tr td {font-size: 10px;}
 }
 
  @media (max-height: 500px) 
