@@ -43,6 +43,10 @@ a {
   color: #000000;
 }
 
+a:hover {
+  text-decoration-line: underline;
+}
+
 hr {
   color: e5e7eb;
   margin-bottom: 2%;
@@ -69,7 +73,7 @@ p {
   background: rgb(81, 162, 218);
   background: linear-gradient(90deg, rgb(81, 162, 218) 50%, rgb(60, 110, 180) 100%);
   position: sticky;
-  top: -40px;
+  top: 0px;
   width: 100vw;
   height: 80px;
   font-family: Montserrat, ui-sans-serif, system-ui, sans-serif;
@@ -97,7 +101,9 @@ p {
 }
 
 .menu {
-  padding-top: 2%;
+  background: rgb(81, 162, 218);
+  background: linear-gradient(90deg, rgb(81, 162, 218) 50%, rgb(60, 110, 180) 100%);
+  top: 40px;
 }
 
 .menu a {
@@ -113,14 +119,14 @@ p {
 }
 
 .menu a:hover {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   transition: 0.5s;
 }
 
 .nav a {
   font-size: 20px;
-  padding-top: 100px;
-  height: 100px;
+  padding-top: 50px;
+  height: 50px;
 }
 
 /* Menu Icon */
@@ -297,6 +303,8 @@ li a :hover {
 
 .hrefs {
   text-align: right;
+  margin-bottom: 2%;
+  color: #fff;
 }
 
 .hrefs :hover {
