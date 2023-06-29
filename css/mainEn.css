@@ -79,16 +79,10 @@ p {
   font-family: Montserrat, ui-sans-serif, system-ui, sans-serif;
 }
 
-.header-inner {
-  height: 70px;
-  position: sticky;
-  top: 0;
-}
-
 /* Logo */
 .logo {
-  padding: 2%;
-  content: url("/images/montesarate/2.svg");
+  padding: 1%;
+  content: url("/images/montesarate/2.png");
 }
 
 /* Nav menu */
@@ -125,7 +119,7 @@ p {
 
 .nav a {
   font-size: 20px;
-  padding-top: 50px;
+  padding-top: 100px;
   height: 50px;
 }
 
@@ -421,7 +415,8 @@ li a :hover {
 }
 @media (max-width: 300px) {
   .logo {
-    font-size: 20px;
+    width: 120px;
+    padding-top: 12%;
   }
   tr td {
     font-size: 10px;
