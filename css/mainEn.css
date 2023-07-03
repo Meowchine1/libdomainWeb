@@ -9,7 +9,7 @@
   --white: #f9f9f9;
   --black: #36383F;
   --gray: #85888C;
-  --blue: #B0C3EF;
+  --blue: #3c6eb4;
 } /* variables*/
 /* Reset */
 * {
@@ -20,7 +20,7 @@
 
 body {
   font-family: Montserrat, ui-sans-serif, system-ui, sans-serif;
-  background-color: #E1E6F0;
+  background-color: #f3f4f6;
 }
 
 main {
@@ -70,7 +70,8 @@ p {
 
 /* Header */
 .header {
-  background: var(--blue);
+  background: rgb(81, 162, 218);
+  background: linear-gradient(90deg, rgb(81, 162, 218) 50%, rgb(60, 110, 180) 100%);
   position: sticky;
   top: 0px;
   width: 100vw;
@@ -272,13 +273,68 @@ tbody tr:nth-child(8) td:nth-child(2):hover {
 }
 
 .footer {
-  bottom: 0;
-  height: 40vh;
-  background: #000;
-  padding: 30px 0px;
-  font-family: Montserrat, ui-sans-serif, system-ui, sans-serif;
-  text-align: center;
-  font-size: 20px;
+  background: #171B25;
+  color: #ffffff;
+  padding: 57px 0 40px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 70vw;
+  padding: 0 20px;
+  position: relative;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.top {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  margin: 0 -20px;
+}
+
+.col-right {
+  flex-basis: 75%;
+  -ms-flex-preferred-size: 25%;
+  margin-bottom: 60px;
+}
+
+.col-left {
+  float: left;
+  flex-basis: 25%;
+  -ms-flex-preferred-size: 75%;
+  margin-bottom: 40px;
+}
+
+.col-right a {
+  color: white;
+  margin-right: 2%;
+}
+
+.inside {
+  margin: 0 20px;
+  height: 100%;
+}
+
+.footer .col-left .logo1 {
+  margin-bottom: 35px;
+}
+
+.footer .top .contact {
+  min-width: 185px;
 }
 
 li a :hover {
@@ -295,24 +351,6 @@ li a :hover {
   color: #fff;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 70vw;
-}
-
-.container .row {
-  padding-top: 2%;
-  display: inline;
-}
-
-.row-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  color: white;
-  text-align: left;
-}
-
 .hrefs {
   float: right;
   list-style-type: none;
@@ -322,79 +360,16 @@ li a :hover {
   margin-bottom: 1em; /* Расстояние снизу */
 }
 
-.footer .image {
-  float: left;
-}
-
 .item a {
   color: white;
 }
 
-.row-left a {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 2%;
-}
-
-.row-left img {
-  height: 150px;
-  width: 200px;
+.sign {
+  align-items: center;
 }
 
 .image a {
   color: white;
-}
-
-.blockcontainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.block {
-  margin-right: 15%;
-  font-size: 25px;
-}
-
-.block1 {
-  display: flex;
-  flex-direction: row;
-  color: white;
-}
-
-.block1 .item {
-  padding-right: 40%;
-  padding-top: 30%;
-}
-
-.block1 a {
-  color: white;
-}
-
-.footer .row {
-  color: #fff;
-  text-align: left;
-}
-
-.footer .row a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer .row ul {
-  width: 100%;
-}
-
-.footer .row ul li {
-  display: inline-block;
-  margin: 0px 30px;
-}
-
-.footer .row a i {
-  font-size: 2em;
-  margin: 0% 1%;
 }
 
 .hrefs {
@@ -411,6 +386,18 @@ li a :hover {
   padding-right: 2%;
 }
 
+@media (max-width: 950px) {
+  .row-left img {
+    height: 70px;
+    width: 100px;
+  }
+  .block1 {
+    flex-direction: column;
+  }
+  .footer a, div {
+    font-size: 15px;
+  }
+}
 @media (max-width: 720px) {
   h1 {
     font-size: 30px;
@@ -428,7 +415,7 @@ li a :hover {
   .footer {
     text-align: left;
     padding: 5%;
-    height: 70vh;
+    height: 80vh;
   }
   .footer .row ul li {
     display: block;
